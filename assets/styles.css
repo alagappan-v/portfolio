@@ -21,6 +21,36 @@ header {
     text-align: center;
 }
 
+.navbar {
+    background-color: black; /* Navbar background color */
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white; /* Link color */
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
 /* Carousel Container */
 .carousel {
     position: relative;
