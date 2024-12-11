@@ -1,10 +1,10 @@
 ---
 title: Alagappan Veerappan
 description: Welcome to my portfolio site where I showcase my work!
-FYI - This site is still under construction.
 ---
+Note: This site is still very much under construction.
 
-# What kind of work do I do?
+# My work?
 - Portraits
 - Cars and Motorcycles
 - FPV drone stuff coming soon...?
