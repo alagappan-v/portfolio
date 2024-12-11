@@ -14,9 +14,10 @@ body {
 
 /* Header styling */
 header {
+    background: black;
     color: white;
     width: 100vw;
-    opacity: 0;
+    opacity: 0.9;
     text-align: center;
 }
 
