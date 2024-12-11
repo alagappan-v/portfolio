@@ -1,6 +1,6 @@
 ---
-title: Alagappan Veerappan
-description: Welcome to my portfolio site where I showcase my work!
+###Alagappan Veerappan
+#### Welcome to my portfolio site where I showcase my work!
 ---
 Note: This site is still very much under construction.
 
@@ -22,17 +22,3 @@ Note: This site is still very much under construction.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-This site is powered by the Cayman theme on GitHub Pages.
