@@ -1,10 +1,12 @@
+/* General styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
+/* Header styling */
 header {
     background: #4CAF50;
     color: white;
@@ -12,10 +14,20 @@ header {
     text-align: center;
 }
 
+/* Main content styling */
 main {
-    padding: 2rem;
+    padding: 1rem;
+    text-align: center;
 }
 
+/* Responsive images */
+main img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+/* Footer styling */
 footer {
     background: #333;
     color: white;
