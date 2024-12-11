@@ -1,5 +1,5 @@
 ---
-###Alagappan Veerappan
+### Alagappan Veerappan
 #### Welcome to my portfolio site where I showcase my work!
 ---
 Note: This site is still very much under construction.
