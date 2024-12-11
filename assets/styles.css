@@ -145,13 +145,12 @@ main {
 
 /* Responsive images */
 img {
-    position: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    object-fit: contain; /* Scale the image to fit without distortion */
     margin: 0;
     padding: 0;
-    background-size: cover;
-    background-position: center;
+    display: block;
 }
 
 /* Footer styling */
