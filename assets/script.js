@@ -1,30 +1,32 @@
 // assets/script.js
 
-const carouselImages = document.querySelector('.carousel-images');
+const carouselItems = document.querySelectorAll('.carousel-item');
 const prevButton = document.querySelector('.carousel-control.prev');
 const nextButton = document.querySelector('.carousel-control.next');
 
 let currentIndex = 0;
+const totalSlides = carouselItems.length;
 
-// Function to update the carousel position
-const updateCarousel = () => {
-    const offset = -currentIndex * 100;
-    carouselImages.style.transform = `translateX(${offset}vw)`;
+// Function to update the active slide
+const updateCarousel = (newIndex) => {
+    carouselItems[currentIndex].classList.remove('active'); // Remove active class from current slide
+    currentIndex = newIndex; // Update index
+    carouselItems[currentIndex].classList.add('active'); // Add active class to the new slide
 };
 
 // Event listeners for navigation buttons
 prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + 3) % 3; // Replace 3 with the number of slides
-    updateCarousel();
+    const newIndex = (currentIndex - 1 + totalSlides) % totalSlides; // Go to the previous slide
+    updateCarousel(newIndex);
 });
 
 nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % 3; // Replace 3 with the number of slides
-    updateCarousel();
+    const newIndex = (currentIndex + 1) % totalSlides; // Go to the next slide
+    updateCarousel(newIndex);
 });
 
 // Optional Autoplay
 setInterval(() => {
-    currentIndex = (currentIndex + 1) % 3; // Replace 3 with the number of slides
-    updateCarousel();
+    const newIndex = (currentIndex + 1) % totalSlides; // Automatically go to the next slide
+    updateCarousel(newIndex);
 }, 5000); // 5 seconds
