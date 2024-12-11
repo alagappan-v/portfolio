@@ -144,10 +144,12 @@ main {
 }
 
 /* Responsive images */
-main img {
-    max-width: 100%;
-    height: auto;
-    margin: 1rem 0;
+img {
+    position: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 /* Footer styling */
