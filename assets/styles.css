@@ -8,14 +8,15 @@ body {
 
 /* Header styling */
 header {
-    background: #4CAF50;
-    color: white;
+    background: black;
     padding: 1rem;
+    opacity: 0.5;
     text-align: center;
 }
 
 /* Main content styling */
 main {
+    background: black;
     padding: 1rem;
     text-align: center;
 }
@@ -29,8 +30,7 @@ main img {
 
 /* Footer styling */
 footer {
-    background: #333;
-    color: white;
+    background: white;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
