@@ -1,6 +1,6 @@
 /* General styling */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -9,6 +9,7 @@ body {
 /* Header styling */
 header {
     background: black;
+    color: white;
     padding: 1rem;
     opacity: 0.5;
     text-align: center;
@@ -17,6 +18,7 @@ header {
 /* Main content styling */
 main {
     background: black;
+    color: white;
     padding: 1rem;
     text-align: center;
 }
@@ -30,7 +32,8 @@ main img {
 
 /* Footer styling */
 footer {
-    background: white;
+    background: black;
+    color: white;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
