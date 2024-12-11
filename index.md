@@ -1,11 +1,11 @@
 ---
 title: Alagappan Veerappan
-alias: AdrenalineAl
+description: Alias: AdrenalineAl
 description: Welcome to my portfolio site where I showcase my work!
 ---
 Note: This site is still very much under construction.
 
-# My work?
+# My work -
 - Portraits
 - Cars and Motorcycles
 - FPV drone stuff coming soon...?
