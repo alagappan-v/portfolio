@@ -1,13 +1,14 @@
 ---
 title: Alagappan Veerappan
 description: Welcome to my portfolio site where I showcase my work!
-FYI: This site is still under construction.
+FYI - This site is still under construction.
 ---
 
 # What kind of work do I do?
 - Portraits
-- Cars and Motorcycles (mainly videography)
-- Also working on building a drone for FPV footage
+- Cars and Motorcycles
+- FPV drone stuff coming soon...?
+- Video/Photo editing (Premiere Pro/Lightroom/Aftereffects/Photoshop)
 
 <img src="assets/img/1hwkslookoutwlogo.png" alt="RiderPhoto1">
 <img src="assets/img/2hwkslookoutwlogo.png" alt="RiderPhoto2">
