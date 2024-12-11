@@ -14,11 +14,15 @@ body {
 
 /* Header styling */
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: black;
     color: white;
     width: 100vw;
     opacity: 0.9;
     text-align: center;
+    padding: 0.5rem 1rem;
 }
 
 .navbar {
@@ -29,9 +33,11 @@ header {
 }
 
 .navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+    list-style: none; /* Remove bullets from list items */
+    display: flex; /* Align items horizontally */
+    gap: 1rem; /* Add space between links */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
 }
 
 .navbar li {
@@ -39,16 +45,21 @@ header {
 }
 
 .navbar a {
-    text-decoration: none;
+    text-decoration: none; /* Remove underline */
     color: white; /* Link color */
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    font-weight: bold; /* Bold text */
+    padding: 0.5rem; /* Add padding around links */
+    transition: background-color 0.3s ease; /* Add hover transition */
 }
 
 .navbar a:hover {
-    background-color: #555; /* Change background on hover */
-    border-radius: 5px; /* Rounded corners on hover */
+    color: #555; /* Change background on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+.page-header h1 {
+    margin: 0; /* Remove default margin on h1 */
+    font-size: 1.5rem; /* Adjust font size for balance */
 }
 
 /* Carousel Container */
