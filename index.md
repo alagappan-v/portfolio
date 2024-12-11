@@ -9,7 +9,8 @@ FYI: This site is still under construction.
 - Cars and Motorcycles (mainly videography)
 - Also working on building a drone for FPV footage
 
-<img src="assets/img/1hwkslookout.png" alt="1hawksM">
+<img src="assets/img/1hwkslookoutwlogo.png" alt="RiderPhoto1">
+<img src="assets/img/2hwkslookoutwlogo.png" alt="RiderPhoto2">
 
 
 
