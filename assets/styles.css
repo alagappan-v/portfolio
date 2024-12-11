@@ -147,7 +147,7 @@ main {
 img {
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
-    object-fit: contain; /* Scale the image to fit without distortion */
+    object-fit: cover; /* Scale the image to fit without distortion */
     margin: 0;
     padding: 0;
     display: block;
