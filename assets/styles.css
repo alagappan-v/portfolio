@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    overflow: hidden;
 }
 
 /* Header styling */
@@ -28,7 +28,6 @@ header {
     height: 100vh;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Prevent overflow */
     background: black;
 }
 
@@ -100,7 +99,7 @@ main {
     height: 100%; /* Let the main tag stretch if it wraps the carousel */
     padding: 0;
     margin: 0;
-    overflow: hidden; /* Prevent scrollbars */
+    text-align: center;
 }
 
 /* Responsive images */
