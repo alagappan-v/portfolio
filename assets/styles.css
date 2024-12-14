@@ -1,3 +1,4 @@
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -11,154 +12,80 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background: white;
+    color: black;
 }
 
-/* Header styling */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: black;
-    color: white;
-    width: 100vw;
-    opacity: 0.9;
-    text-align: center;
-    padding: 0.5rem 1rem;
-}
-
+/* Navbar */
 .navbar {
-    background-color: black; /* Navbar background color */
-    padding: 0.5rem 0;
     display: flex;
     justify-content: center;
-}
-
-.navbar ul {
-    list-style: none; /* Remove bullets from list items */
-    display: flex; /* Align items horizontally */
-    gap: 1rem; /* Add space between links */
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
-}
-
-.navbar li {
+    gap: 1rem;
     margin: 0;
+    padding-bottom: 0.5vh;
 }
 
-.navbar a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Link color */
-    font-weight: bold; /* Bold text */
-    padding: 0.5rem; /* Add padding around links */
-    transition: background-color 0.3s ease; /* Add hover transition */
+li {
+    display: inline;
 }
 
-.navbar a:hover {
-    color: #555; /* Change background on hover */
-    border-radius: 5px; /* Rounded corners for hover effect */
+li a:hover {
+    color: grey;
 }
 
-.page-header h1 {
-    margin: 0; /* Remove default margin on h1 */
-    font-size: 1.5rem; /* Adjust font size for balance */
+li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 0.5rem; /* Top/bottom: 0, Left/right: 0.5rem */
 }
 
-/* Carousel Container */
-.carousel {
-    position: relative;
+.image-container {
+    column-width: 33vw; /* Set a base width for the columns */
+    column-gap: 12px; /* Spacing between columns */
+    width: 100%;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+.grid-item {
+    display: inline; /* Ensure items wrap correctly */
+    margin: 0; /* Add spacing between items */
+    width: 100%; /* Let the browser scale images */
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: inline;
+    border-radius: 20px; /* Rounds the edges of the images */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    color: black;
     width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background: black;
-}
-
-/* Carousel Items */
-.carousel-item {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw; /* Match viewport width */
-    height: 100vh; /* Match viewport height */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    z-index: 0;
-}
-
-/* Active slide */
-.carousel-item.active {
-    opacity: 1;
-    z-index: 1;
-}
-
-/* Caption Styling */
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center horizontally and vertically */
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-}
-
-.carousel-caption h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.carousel-caption p {
-    font-size: 1.2rem;
-}
-
-/* Controls */
-.carousel-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-    z-index: 10;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
+    text-align: center;
 }
 
-.carousel-control.prev {
-    left: 1rem;
-}
-
-.carousel-control.next {
-    right: 1rem;
-}
-
-/* Main content styling */
+/* Main Content */
 main {
-    height: 100%; /* Let the main tag stretch if it wraps the carousel */
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
-/* Responsive images */
-img {
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-    object-fit: cover; /* Scale the image to fit without distortion */
-    margin: 0;
-    padding: 0;
-    display: block;
-}
-
-/* Footer styling */
+/* Footer */
 footer {
-    background: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 1rem;
 }
