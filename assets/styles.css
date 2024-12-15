@@ -41,24 +41,24 @@ li a {
 }
 
 .image-container {
-    column-width: 33vw; /* Set a base width for the columns */
-    column-gap: 12px; /* Spacing between columns */
+    column-width: 33vw;
+    column-gap: 12px;
     width: 100%;
     margin: 0;
     padding: 1.5rem;
 }
 
 .grid-item {
-    display: inline; /* Ensure items wrap correctly */
-    margin: 0; /* Add spacing between items */
-    width: 100%; /* Let the browser scale images */
+    display: inline;
+    margin: 0;
+    width: 100%;
 }
 
 .grid-item img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
     display: inline;
-    border-radius: 20px; /* Rounds the edges of the images */
+    border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -75,14 +75,12 @@ header {
     text-align: center;
 }
 
-/* Main Content */
 main {
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
-/* Footer */
 footer {
     background-color: rgba(0, 0, 0, 0);
     color: black;
